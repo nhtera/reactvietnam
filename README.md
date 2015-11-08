@@ -1071,3 +1071,4 @@ A collection of awesome things regarding React ecosystem.
 * [mozilla/payments-ui](https://github.com/mozilla/payments-ui)
 * https://raindrop.io (not open source)
 * https://discordapp.com (not open source)
+* [andrewngu/sound-redux -  https://soundredux.io/](https://github.com/andrewngu/sound-redux)
