@@ -1072,3 +1072,5 @@ A collection of awesome things regarding React ecosystem.
 * https://raindrop.io (not open source)
 * https://discordapp.com (not open source)
 * [andrewngu/sound-redux -  https://soundredux.io/](https://github.com/andrewngu/sound-redux)
+* [IvanVergiliev/2048-react](https://github.com/IvanVergiliev/2048-react)
+* [prabirshrestha/hn-react](https://github.com/prabirshrestha/hn-react)
