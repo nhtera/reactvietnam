@@ -1,7 +1,6 @@
 ### **React Vietnam**
 
-[![Join the chat at https://gitter.im/nhtera/reactvietnam](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nhtera/reactvietnam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
+[![Join the chat at https://gitter.im/nhtera/reactvietnam](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nhtera/reactvietnam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) / [Join us on Discord](https://discord.gg/0ccAjNtZ0tLOnAJ1)
 
 A collection of awesome things regarding React ecosystem.
 
