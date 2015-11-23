@@ -1,6 +1,8 @@
 ### **React Vietnam**
 
-[![Join the chat at https://gitter.im/nhtera/reactvietnam](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nhtera/reactvietnam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) / [Join us on Discord](https://discord.gg/0ccAjNtZ0tLOnAJ1)
+[![Join the chat at https://gitter.im/nhtera/reactvietnam](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nhtera/reactvietnam?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
+[![React Vietnam channel on discord](https://img.shields.io/badge/Discord-React%20Vietnam-blue.svg?style=flat-square)](https://discord.gg/0ccAjNtZ0tLOnAJ1)
+[![React Vietnam channel on twitter](https://img.shields.io/badge/twitter-React%20Vietnam-55acee.svg?style=flat-square)](https://twitter.com/reactvnorg)
 
 A collection of awesome things regarding React ecosystem.
 
@@ -29,6 +31,7 @@ A collection of awesome things regarding React ecosystem.
     - [Debugging React](#debugging-react)
     - [Authentication](#authentication)
     - [File Uploads](#file-uploads)
+    - [React Internals](#react-internals)
   - [React Tools](#react-tools)
     - [Boilerplates](#boilerplates)
     - [Components](#components)
@@ -51,8 +54,6 @@ A collection of awesome things regarding React ecosystem.
     - [Charts](#charts)
     - [Service Workers](#service-workers)
     - [Dashboards](#dashboards)
-  - [Approach Explanation](#approach-explanation)
-  - [React Internals](#react-internals)
 - [JSX](#jsx)
   - [JSX Resources](#jsx-resources)
   - [JSX Tutorials](#jsx-tutorials)
@@ -62,6 +63,7 @@ A collection of awesome things regarding React ecosystem.
   - [Flux Implementations](#flux-implementations)
   - [Flux Tutorials](#flux-tutorials)
   - [Redux Tutorials](#redux-tutorials)
+  - [NuclearJS Tutorials](#nuclearjs-tutorials)
 - [Jest](#jest)
   - [Jest General Resources](#jest-general-resources)
   - [Testing Tutorials](#testing-tutorials)
@@ -108,6 +110,7 @@ A collection of awesome things regarding React ecosystem.
 
 #### React Community
 * `#reactjs` channel on Freenode IRC Server
+* [Reactiflux](http://www.reactiflux.com/)
 * [React Discussion Forum](https://discuss.reactjs.org/)
 * [React StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
 * [React Twitter](https://twitter.com/reactjs)
@@ -127,7 +130,6 @@ A collection of awesome things regarding React ecosystem.
 ##### React General Tutorials
 * [React Tutorial](https://facebook.github.io/react/docs/tutorial.html)
 * [React.js Koans: Practical exercises that will help you learn React.js from square one](https://github.com/arkency/reactjs_koans)
-* [Yo in React](http://davidandsuzi.com/yo-in-react/)
 * [React PhoneCat: Rewriting the AngularJS Tutorial App in React](http://jgebhardt.github.io/blog/react-phonecat/)
 * [Building a board game with React.js](http://jjt.io/2014/07/30/building-a-board-game-with-react-js/)
 * [Trying Out ReactJS With the Marvel API](http://ryanlanciaux.github.io/blog/2014/05/26/trying-out-reactjs-with-the-marvel-api/)
@@ -168,6 +170,11 @@ A collection of awesome things regarding React ecosystem.
 * [How do I react? Basics & Building an app from scratch](https://github.com/foundersandcoders/begin_react_workshop)
 * [React Chinese Documents](http://reactjs.cn/)
 * [React JS Tutorial and Guide to the Gotchas](https://zapier.com/engineering/react-js-tutorial-guide-gotchas/)
+* [BirdWatch: AngularJS vs. ReactJS](http://matthiasnehlsen.com/blog/2014/03/31/birdwatch-with-reactjs/)
+* [Removing User Interface Complexity, or Why React is Awesome](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome)
+* [Pros and Cons of using immutability with React.js](http://reactkungfu.com/2015/08/pros-and-cons-of-using-immutability-with-react-js/)
+* [Boiling React Down to a Few Lines of jQuery](http://hackflow.com/blog/2015/03/08/boiling-react-down-to-few-lines-in-jquery/)
+* [Easier UI Reasoning with Unidirectional Dataflow and Immutable Data - Using React.js and Omniscient.js](http://open.bekk.no/easier-reasoning-with-unidirectional-dataflow-and-immutable-data)
 
 ##### Isomorphic Apps
 * [isomorphic-tutorial - Tutorial app to demonstrate isomorphic JavaScript concepts](https://github.com/spikebrehm/isomorphic-tutorial)
@@ -288,6 +295,10 @@ A collection of awesome things regarding React ecosystem.
 ##### File Uploads
 * [Direct uploads to S3 with React, Rails, and Paperclip](http://blog.littleblimp.com/post/119230396893/direct-uploads-to-s3-with-react-rails-and)
 
+##### React Internals
+* [React’s diff algorithm](http://calendar.perfplanet.com/2013/diff/)
+* [An Optimal Decomposition Algorithm for Tree Edit Distance](http://www.cs.haifa.ac.il/~oren/Publications/TEDinTALG.pdf)
+
 #### React Tools
 
 ##### Boilerplates
@@ -304,6 +315,7 @@ A collection of awesome things regarding React ecosystem.
 * [Coffee React Quickstart](https://github.com/KyleAMathews/coffee-react-quickstart)
 * [React + Webpack + Flux (Alt) + Isomorphic + Express + MongoDB boilerplate](https://github.com/choonkending/react-webpack-node)
 * [Babel Starter Kit - a boilerplate for authoring React.js libraries with ES6+, Babel](https://github.com/kriasoft/babel-starter-kit)
+* [Minimal Node React stack starter kit - Node/Express (hbs), React + React Router + Redux, Webpack, Babel, Gulp and unit tests with Karma ](https://github.com/weblancaster/node-react-stack-kit)
 
 ##### Components
 * [React Components](http://react-components.com/)
@@ -442,6 +454,9 @@ A collection of awesome things regarding React ecosystem.
 * [react-ui-tree - React tree component with drag and drop support](https://github.com/pqx/react-ui-tree)
 * [react-frame - React components within an iframe for isolated css styling](https://github.com/pqx/react-frame)
 * [react-inline-grid - Predictable flexbox based grid for React using Redux and Immutable-js](https://github.com/broucz/react-inline-grid)
+* [rodal - A React modal with animations](http://rodal.cn)
+* [react-scrollbar - Simple ScrollArea component built for React](https://github.com/souhe/reactScrollbar)
+* [react-experiments - Implement A/B tests with randomized parameterizations of your components](https://github.com/HubSpot/react-experiments)
 
 #### Libraries
 * [tuxx - A feature complete framework built on the React view layer](http://www.tuxedojs.org)
@@ -622,12 +637,14 @@ A collection of awesome things regarding React ecosystem.
 
 ##### Template Engines
  * [react-templates - Lightweight templates for React](https://github.com/wix/react-templates)
+ * [teact - A JSX alternative based on composing functions in the Markaby / CoffeeKup / Teacup tradition](https://github.com/hurrymaplelad/teact)
 
 ##### Maps
 * [react-googlemaps - React interface to Google maps](https://github.com/pieterv/react-googlemaps)
 * [react-maps - A map component for React](https://github.com/matnel/react-maps)
 * [react-google-maps - React.js Google Maps integration component](https://github.com/tomchentw/react-google-maps)
 * [react-gmaps - A Google Maps component for React.js](https://github.com/MicheleBertoli/react-gmaps)
+* [react-map-gl - A React wrapper for MapboxGL-js plus overlay API](https://github.com/uber/react-map-gl)
 
 ##### Charts
 * [react-d3 - Modular React charts made with d3.js](https://github.com/esbullington/react-d3)
@@ -768,6 +785,10 @@ A collection of awesome things regarding React ecosystem.
 #### Redux Tutorials
 * [Redux Tutorial](https://github.com/happypoulp/redux-tutorial)
 
+#### NuclearJS Tutorials
+* [Front End Apps With Nuclearjs](http://tilomitra.com/front-end-apps-with-nuclearjs/)
+* [Simple Counter App with React and Nuclear JS](https://github.com/haochuan/random-notes/blob/master/react/couter-app-with-react-nuclear.md)
+
 
 ---
 ### Jest
@@ -810,9 +831,18 @@ A collection of awesome things regarding React ecosystem.
 * [Super Simple Native Module Example](https://colinramsay.co.uk/2015/03/27/react-native-simple-native-module.html)
 * [NavigatorIOS Demo](https://colinramsay.co.uk/2015/04/11/react-native-navigatorios-demo.html)
 * [Digital Smart Mirror lab with React Native](http://atticuswhite.com/blog/react-native-smart-mirror-lab/)
+* [React Native Periscope Hearts Animation](http://browniefed.com/blog/2015/09/07/react-native-periscope-hearts-animation/)
+* [React Native Youtube Animated Video Slide](http://browniefed.com/blog/2015/08/31/react-native-youtube-animated-video-slide/)
+* [React-Native Animated with React-Art - Firework Tap To Shoot](http://browniefed.com/blog/2015/08/29/react-native-animated-with-react-art-firework-show/)
+* [React-native press and hold button actions](http://browniefed.com/blog/2015/08/22/react-native-press-and-hold-button-actions/)
+* [React-native Animated API with PanResponder](http://browniefed.com/blog/2015/08/15/react-native-animated-api-with-panresponder/)
+* [React-native Animated ScrollView Row Swipe Actions](http://browniefed.com/blog/2015/08/01/react-native-animated-listview-row-swipe/)
+* [React-native Animated API Basic Example](http://browniefed.com/blog/2015/07/26/react-native-animated-api-basic-example/)
+* [React Native and Socket.io](http://browniefed.com/blog/2015/05/16/react-native-and-socket-dot-io/)
 
 #### React Native Development Tools
 * [react-native-webpack-server - Build React Native apps with Webpack](https://github.com/mjohnston/react-native-webpack-server)
+* [react-native-code-push - React Native plugin for the CodePush service](https://github.com/Microsoft/react-native-code-push)
 
 #### React Native Sample Apps
 * [HackerNews](https://github.com/iSimar/HackerNews-React-Native)
@@ -823,6 +853,7 @@ A collection of awesome things regarding React ecosystem.
 * [react-native-applinks - AppLinks support for React Native](https://github.com/facebook/react-native-applinks)
 * [react-native-side-menu - Simple customizable component to create side menu](https://github.com/Kureev/react-native-side-menu)
 * [react-native-mapbox-gl - A Mapbox GL react native module](https://github.com/mapbox/react-native-mapbox-gl)
+* [react-native-android-speech - A Native Module for Text To Speech Engine for Android ](https://github.com/mihirsoni/react-native-android-speech)
 
 
 ---
@@ -1025,6 +1056,7 @@ A collection of awesome things regarding React ecosystem.
 * [Keep up with React - BigBinary](http://bigbinary.com/videos/keep-up-with-reactjs)
 * [React Native Intro](http://brentvatne.ca/react-native-intro-talk/)
 * [Building a Simple ToDo App With React Native and Firebase](https://www.youtube.com/watch?v=3ab0K6viEp0)
+* [React & Flux by: Christian Lilley](https://www.youtube.com/watch?v=mK4_a7u2cgI)
 
 
 ---
